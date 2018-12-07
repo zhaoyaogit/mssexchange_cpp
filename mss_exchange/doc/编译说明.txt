@@ -1,0 +1,2 @@
+本工程在win7上是使用vs2013编译
+在centos（linux）上使用的是gcc4.8.5

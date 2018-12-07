@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mssmatch">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="mssjson">
+      <UniqueIdentifier>{e6c44baf-96ac-49f3-b095-52176fdfc9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{2b19775c-6e41-4bda-bbc5-090814388c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hiredis_win">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{fed264fc-503d-4430-868c-6e0d78657c3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mssmatch\DataDispose.cpp">
+      <Filter>mssmatch</Filter>
+    </ClCompile>
+    <ClCompile Include="mssmatch\msslog.cpp">
+      <Filter>mssmatch</Filter>
+    </ClCompile>
+    <ClCompile Include="mssmatch\mssmatch.cpp">
+      <Filter>mssmatch</Filter>
+    </ClCompile>
+    <ClCompile Include="mssmatch\MssPubfunc.cpp">
+      <Filter>mssmatch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mssmatch\BaseDefine.h">
+      <Filter>mssmatch</Filter>
+    </ClInclude>
+    <ClInclude Include="mssmatch\DataDispose.h">
+      <Filter>mssmatch</Filter>
+    </ClInclude>
+    <ClInclude Include="mssmatch\msslog.h">
+      <Filter>mssmatch</Filter>
+    </ClInclude>
+    <ClInclude Include="mssjson\jsonbase.h">
+      <Filter>mssjson</Filter>
+    </ClInclude>
+    <ClInclude Include="mssjson\jsonpack.h">
+      <Filter>mssjson</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis_win\hiredis.h">
+      <Filter>hiredis_win</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis_win\sds.h">
+      <Filter>hiredis_win</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis_win\win32fixes.h">
+      <Filter>hiredis_win</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis_win\fmacros.h">
+      <Filter>hiredis_win</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis_win\win32_types_hiredis.h">
+      <Filter>hiredis_win</Filter>
+    </ClInclude>
+    <ClInclude Include="mssmatch\MssPubfunc.h">
+      <Filter>mssmatch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mssmatch\Makefile">
+      <Filter>mssmatch</Filter>
+    </None>
+    <None Include="doc\MSS交易所项目设计文档.docx">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="bin\entrust.req">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\mssexchange.json">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\run.bat">
+      <Filter>bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="doc\mssjson_example.txt">
+      <Filter>doc</Filter>
+    </Text>
+    <Text Include="doc\MSS项目说明.txt">
+      <Filter>doc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
