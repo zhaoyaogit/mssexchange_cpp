@@ -3,6 +3,7 @@ cpp写的一个中心化交易所撮合系统，基于redis内存库设计
 金巴特交易所未来启用论坛地址：www.kingbut.com
 
 目前，由于资源问题，只能挂靠在域名www.kingstargold.cn名下。
+
 /*
 
 2018-12-07:
